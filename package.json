@@ -1,0 +1,25 @@
+{
+  "name": "jsonpick",
+  "version": "1.0.0",
+  "description": "A jq-inspired JSON query CLI with zero dependencies: validate, pretty-print, and select values via a small JSON-path DSL.",
+  "type": "module",
+  "bin": {
+    "jsonpick": "bin/jsonpick.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "json",
+    "cli",
+    "query",
+    "jq",
+    "path",
+    "pretty-print",
+    "zero-dependency"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
